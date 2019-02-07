@@ -217,4 +217,129 @@ html {
 .price-btn:hover {
 	color: #fff;
 	background-color: #7B43E7;
+	cursor: pointer;
+}
+.call-to-action-overlay {
+	background-image: -moz-linear-gradient( 150deg, rgb(136,211,206) 0%, rgb(110,69,226) 100%);
+	background-image: -webkit-linear-gradient( 150deg, rgb(136,211,206) 0%, rgb(110,69,226) 100%);
+	background-image: -ms-linear-gradient( 150deg, rgb(136,211,206) 0%, rgb(110,69,226) 100%);
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0.7;
+  	z-index: 0;
+}
+.call-to-action {
+	background: url(../img/map.png) no-repeat center;
+	background-size: cover;
+	text-align: center;
+	position: relative;
+	padding: 15rem;
+	color: #fff;
+}
+.call-to-action span {
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	font-weight: 500;
+
+}
+.call-to-action h4 {
+	font-size: 4.2rem;
+	font-weight: 500;
+	margin: 1rem auto 2rem;
+}
+.call-to-action .call-btn {
+	display: inline-block;
+	border: none;
+	background-color: #fff;
+	color: #C9D1E1;
+	width: 15rem;
+	height: 4rem;
+	font-size: 1rem;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin: 1rem;
+	border-radius: 100px;
+}
+.call-to-action .call-btn:hover {
+	background-color: #7B43E7;
+	color: #fff;
+	cursor: pointer;
+	transition: 0.2;
+}
+.call-wrap {
+	z-index: 2;
+	position: relative;
+}
+.footer-wrap {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+}
+.footer {
+	height: 15vh;
+	align-items: center;
+	width: 90%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+.footer-menu {
+	width: 50%;
+}
+.footer-menu ul {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+}
+.footer-menu-link {
+	color: #6A6A78;
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 1rem;
+}
+.footer-get-started-btn {
+	margin-left: 60px;
+	color: #fff;
+	background-color: #7B43E7;
+	border: 1px solid #fff;
+	padding: 10px 20px;
+	border-radius: 100px;
+	text-transform: uppercase;
+	font-size: 1rem;
+}
+.line {
+	width: 90%;
+	height: 1px;
+	margin: 1rem auto;
+	background-color: #F2F2F3;
+}
+.legal {
+	padding: 0 5%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #BDBDC3;
+}
+.social a {
+	margin-left: 1rem;
+	display: inline-block;
+	font-size: 1.2rem;
+	color: #BDBDC3;
 }
